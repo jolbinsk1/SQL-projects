@@ -1,12 +1,12 @@
 -- Dataset: the use of electric cars in over 30 countries between 2010 and 2022
 -- Source: DHannah Ritchie (2024) - “Tracking global data on electric vehicles” 
 	-- Published online at OurWorldInData.org 
-    -- Retrieved from: 'https://ourworldindata.org/electric-car-sales' [Online Resource]
+	-- Retrieved from: 'https://ourworldindata.org/electric-car-sales' [Online Resource]
 -- Queried using: MySQL Workbench
 
-		# Note: the 'entity' column in the tables includes both countries and the following regions:
-		# 'Rest of World','World','Other Europe', 'Europe', and 'European Union (27)'
-			# I will be excluding the above regions in some calculations
+	-- Note: the 'entity' column in the tables includes both countries and the following regions:
+	-- 'Rest of World','World','Other Europe', 'Europe', and 'European Union (27)'
+		-- I will be excluding the above regions in some queries
 
 /* 
  Let's begin by setting up some helpful views to better conceptualize the data in the tables
@@ -14,7 +14,7 @@
 
 -- First, let's create a view that contains the year electric car data began being collected for each country/region
 -- this will help us grab relevant start years to use for our stored procedures
-	# Note: the last year of data collection for all countries was 2022, so we dont need to worry about the end year 
+	-- Note: the last year of data collection for all countries was 2022, so we dont need to worry about the end year 
 
 USE electric_cars;
 DROP VIEW IF EXISTS data_start_years;
@@ -74,7 +74,7 @@ CREATE OR REPLACE VIEW data_start_years AS
 					world_population
 				GROUP BY entity) wp ON pbe.entity = wp.entity
 	GROUP BY bp.entity
-	;
+;
     
 SELECT * FROM data_start_years;
 
@@ -405,8 +405,8 @@ WINDOW top AS (PARTITION BY c.year ORDER BY c.total_car_sales DESC)
 
 -- This time by greatest increase in electric car sales from 2018 to 2022
 -- using a CTE, which can be adjusted to change the year interval you're looking at
-	# Note: I used the top 10 average population between the two years 
-	# as a work-around for selecting the top 10 total population
+	-- Note: I used the top 10 average population between the two years 
+	-- as a work-around for selecting the top 10 total population
 
 WITH car_sales_diff AS (
     SELECT 
@@ -422,8 +422,7 @@ WITH car_sales_diff AS (
     WHERE
         c_start.year = 2018
     AND
-        c_end.year = 2022
-)
+        c_end.year = 2022)
 SELECT 
     w.entity,
     w.avg_population,
@@ -469,8 +468,7 @@ WITH car_sales_diff AS (
     WHERE
         c_start.year = 2018
     AND
-        c_end.year = 2022
-)
+        c_end.year = 2022)
 SELECT 
     w.entity,
     w.avg_population,
@@ -519,7 +517,7 @@ FROM
 		electric_sales_share
 	WHERE 
 		entity NOT IN ('Rest of World','Other Europe', 'Europe','European Union (27)')
-		)ess
+	) ess
 		INNER JOIN
 	electric_sales_share world_share ON ess.year = world_share.year
 WHERE
@@ -547,7 +545,7 @@ FROM
 		electric_stock_share
 	WHERE 
 		entity NOT IN ('Rest of World','Other Europe', 'Europe','European Union (27)')
-		) ess
+	) ess
 		INNER JOIN
 	electric_stock_share world_sales_share ON ess.year = world_sales_share.year
 WHERE
