@@ -4,7 +4,7 @@
 	-- World Inequality Database (WID.world) (2023) – processed by Our World in Data
     -- World Bank (2023) – with minor processing by Our World in Data
     -- UNDP, Human Development Report (2021-22) (2022) – with minor processing by Our World in Data
--- Queried using mySQL Workbench
+-- Queried using mySQL Workbench 
 
 /* 
 The following queries will compare countries along two measures of inequality against GDP data. 
