@@ -14,7 +14,7 @@
 
 -- First, let's create a view that contains the year electric car data began being collected for each country/region
 -- this will help us grab relevant start years to use for our stored procedures
-	-- Note: the last year of data collection for all countries was 2022, so we dont need to worry about the end year 
+	-- Note: the last year of data collection for all countries was 2022, so we don't need to worry about the end year 
 
 USE electric_cars;
 DROP VIEW IF EXISTS data_start_years;
