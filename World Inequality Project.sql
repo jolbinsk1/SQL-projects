@@ -263,7 +263,6 @@ BEGIN
 ;
     SET gini_diff = end_gini - start_gini;
 	SET atkinson_diff = end_atkinson - start_atkinson;
-
 END$$
 
 DELIMITER ;
