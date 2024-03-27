@@ -1,7 +1,7 @@
 -- Dataset: the use of electric cars in over 30 countries between 2010 and 2022
 -- Source: DHannah Ritchie (2024) - “Tracking global data on electric vehicles” 
 	-- Published online at OurWorldInData.org 
-	-- Retrieved from: 'https://ourworldindata.org/electric-car-sales' [Online Resource]
+	-- Retrieved from: 'https://ourworldindata.org/electric-car-sales' [Online Resource] 
 -- Queried using: MySQL Workbench
 
 	-- Note: the 'entity' column in the tables includes both countries and the following regions:
