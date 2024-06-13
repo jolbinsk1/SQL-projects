@@ -1,14 +1,16 @@
 -- Dataset: Examining differences in education and literacy worldwide
 -- Sources:
-	-- Patrinos and Angrist (2018) and UNESCO via World Bank; Data compiled from multiple sources by World Bank 
-	-- World Bank (2023), Various sources (2018) – OurWorldInData.org/literacy
+	-- Patrinos and Angrist (2018) and UNESCO via World Bank
+		-- Data compiled from multiple sources by World Bank 
+	-- World Bank (2023), Various sources (2018) 
+		-- OurWorldInData.org/literacy
 	-- Filmer et al. (2018) via World Bank 
 	-- Barro and Lee (2015) and Lee and Lee (2016)
 -- Queried using MySQL Workbench
 
 
 /* 
-First, we'll create the tables
+First, we will create the tables
 */
 
 USE education;
