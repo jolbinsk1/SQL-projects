@@ -71,15 +71,15 @@ Highlights from the SQL calculations:
 - China has also seen the greatest growth in EVs sold from 2018-2022, outpacing second place, which is held by Germany (change: ~5 million vs. ~800,000 respectively)
 - The top 3 countries with the highest percent of EVs driven in 2022 are:
   <p>
-      1) Norway (88%)<br>
-      2) Iceland (70%)<br>
-      3) Sweden (54%)<br>
+      &nbsp;1) Norway (88%)<br>
+      &nbsp;2) Iceland (70%)<br>
+      &nbsp;3) Sweden (54%)<br>
   </p>
 - As of 2022, the top 3 countries with respect to EVs per 100,000 people are:
   <p>
-      1) Germany (224) <br>
-      2) France (145)<br>
-      3) the U.K. (140)<br>
+      &nbsp;1) Germany (224) <br>
+      &nbsp;2) France (145)<br>
+      &nbsp;3) the U.K. (140)<br>
   </p>
 
 ## Project 2: Education and Literacy Worldwide Analysis
@@ -153,13 +153,13 @@ Use MySQL Workbench or any other SQL client to run queries, create views, and ex
 The analysis reveals insights into global education and literacy trends, the highlights of which include:
 - The reported tertiary education rates for 2020 (the year with the most available data) are: 
   <p> 
-    > 1) Iceland: 85.60%<br>
-    > 2) South Korea: 78.60%<br>
-    > 3) Russia: 75.80%<br>
-    > …<br>
-    > 122) Niger: <0.01% <br>
-    > 123) Mali: <0.01% <br>
-    > 124) Liberia: <0.01%<br>
+    &nbsp;1) Iceland: 85.60%<br>
+    &nbsp;2) South Korea: 78.60%<br>
+    &nbsp;3) Russia: 75.80%<br>
+    &nbsp;…<br>
+    &nbsp;122) Niger: <0.01% <br>
+    &nbsp;123) Mali: <0.01% <br>
+    &nbsp;124) Liberia: <0.01%<br>
   </p>
 - The average years of adjusted education for 2015 (the year with the most available data) are:
   <p>
