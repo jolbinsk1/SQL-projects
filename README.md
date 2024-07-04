@@ -222,72 +222,91 @@ The analysis reveals insights into global education and literacy trends, the hig
   
 *Note: many of the wealthiest countries (e.g. France, U.K., and the United States) were absent from much of the data. Also, there were numerous gaps present in the data (e.g., some years with many entries in one data set had very few or none in another). Therefore, the rankings are not completely representative and strong conclusions should not be drawn from them.
 
-Project 3: Comparative Analysis of Economic Inequality Metrics with GDP
+## Project 3: Comparative Analysis of Economic Inequality Metrics with GDP
+
 The objective of this project is to examine worldwide economic inequality before the COVID-19 pandemic. This period was selected because of the widespread economic consequences of the pandemic.I analyzed various GDP metrics, as well as two measures of economic inequality: the Gini coefficient and the Atkinson index. Both calculate wealth distribution on a scale of 0 to 1 (with 0 being complete equality and 1 complete inequality), but the Atkinson index takes into account the level of inequality a given society deems "acceptable."
-Data Sources
+
+### Data Sources
+
 The data used in this project was pulled from the following sources:
-World Bank Poverty and Inequality Platform (2023), processed by Our World in Data
-World Inequality Database (WID.world) (2023), processed by Our World in Data
-World Bank (2023), with minor processing by Our World in Data
-UNDP, Human Development Report (2021-22) (2022), with minor processing by Our World in Data
-Database Schema
+- World Bank Poverty and Inequality Platform (2023), processed by Our World in Data
+- World Inequality Database (WID.world) (2023), processed by Our World in Data
+- World Bank (2023), with minor processing by Our World in Data
+- UNDP, Human Development Report (2021-22) (2022), with minor processing by Our World in Data
+
+### Database Schema
+
 The project used the following tables to store and analyze data:
-economic_inequality: Contains the data on the Gini coefficients per country and year.
-income_inequality: Provides the data on the Atkinson index per country and year.
-GDP_worldbank: Stores total GDP data per country per year.
-GDP_per_capita: Includes the GDP per capita data per country per year.
-GDP_per_emp_person: Stores the GDP per employed person data per country per year.
-top_10: Contains the share of total GDP held by the top 10% per country per year.
-top_1: Provides the share of total GDP held by the top 1% per country per year.
-Views and Procedures
-Views
-ineq_measure_discrepancy: Compares the Gini coefficient and Atkinson index discrepancies for each country in 2019.
-total_GDP_data: Combines total GDP, GDP per capita, and GDP per employed person data for comprehensive GDP analysis.
-GDP_rankings_2019: Ranks countries by total GDP, GDP per capita, and GDP per employed person in 2019.
-Procedures
-ineq_diff: Calculates the change in Gini coefficient and Atkinson index for a specified country between two given years.
-How to Use
-Clone the Repository:
-bash
+- `economic_inequality`: Contains the data on the Gini coefficients per country and year.
+- `income_inequality`: Provides the data on the Atkinson index per country and year.
+- `GDP_worldbank`: Stores total GDP data per country per year.
+- `GDP_per_capita`: Includes the GDP per capita data per country per year.
+- `GDP_per_emp_person`: Stores the GDP per employed person data per country per year.
+- `top_10`: Contains the share of total GDP held by the top 10% per country per year.
+- `top_1`: Provides the share of total GDP held by the top 1% per country per year.
+  
+### Views and Procedures
+
+#### Views
+
+- `ineq_measure_discrepancy`: Compares the Gini coefficient and Atkinson index discrepancies for each country in 2019.
+- `total_GDP_data`: Combines total GDP, GDP per capita, and GDP per employed person data for comprehensive GDP analysis.
+- `GDP_rankings_2019`: Ranks countries by total GDP, GDP per capita, and GDP per employed person in 2019.
+
+#### Procedures
+
+- `ineq_diff`: Calculates the change in Gini coefficient and Atkinson index for a specified country between two given years.
+  
+### How to Use
+
+#### Clone the Repository:
+```bash
 Copy code
 git clone https://github.com/jolbinsk1/SQL-projects.git
 cd world-inequality-project
-Set Up the Database:
+```
+
+#### Set Up the Database:
+
 Import the provided SQL script into MySQL Workbench to create the database schema and populate tables.
-Run Queries:
+
+#### Run Queries:
+
 Use MySQL Workbench or any SQL client to execute queries, create views, and call stored procedures as needed.
-Results
+
+### Results
+
 The analysis sheds light on the economic inequality trends across countries. Some of the key findings include:
-All analyzed countries (except Egypt) had a higher Gini coefficient than Atkinson index in 2019.
-This could imply that the public perceive inequality to be higher than it should be (However, this must be taken lightly given the robustness of data that is needed to argue that claim)
-The rankings of the amount of total wealth owned by the 1% were:
-1) Dominican Republic 
-35.9% total wealth
-Total GDP: 66
-2) Mexico 
-29.5% total wealth
-Total GDP: 12
-3) Angola 
-26.0% total wealth 
-Total GDP: 64
-…
-44) Albania 
-9.3% total wealth 
-Total GDP: 116
-45) Slovenia 
-8.0% total wealth
-95th in total GDP
-46) Slovakia 
-7.9% total wealth 
-70th in total GDP
-The associated GDP rankings of the largest economies in 2019 include:
-1) China 
-per Capita GDP: 74 
-per employee GDP: 102
-2) United States 
-per Capita GDP: 9
-per employee GDP: 6
-3) India 
-per Capita GDP: 119
-per employee GDP: 119
+- All analyzed countries (except Egypt) had a higher Gini coefficient than Atkinson index in 2019.
+  - This could imply that the public perceive inequality to be higher than it should be (However, this must be taken lightly given the robustness of data that is needed to argue that claim)
+- The rankings of the amount of total wealth owned by the 1% were:
+  1) Dominican Republic 
+    35.9% total wealth
+    Total GDP: 66
+  2) Mexico 
+    29.5% total wealth
+    Total GDP: 12
+  3) Angola 
+    26.0% total wealth 
+    Total GDP: 64
+  …
+  44) Albania 
+    9.3% total wealth 
+    Total GDP: 116
+  45) Slovenia 
+    8.0% total wealth
+    95th in total GDP
+  46) Slovakia 
+    7.9% total wealth 
+    70th in total GDP
+- The associated GDP rankings of the largest economies in 2019 include:
+  1) China 
+    per Capita GDP: 74 
+    per employee GDP: 102
+  2) United States 
+    per Capita GDP: 9
+    per employee GDP: 6
+  3) India 
+    per Capita GDP: 119
+    per employee GDP: 119
 
