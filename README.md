@@ -204,25 +204,29 @@ The analysis reveals insights into global education and literacy trends, the hig
     </blockquote>
   </p>
 - Finally, the rankings of the counties present in the data in terms of per capita GDP in 2020 (the year with the most available data), including their percent literacy:
-  1) Singapore 
-  - GDP: $94,910
-  - Literacy: 97.13%
-  2) Saudi Arabia 
-  - GDP: $44,770; 
-  - Literacy: 97.59%
-  3) Kuwait 
-  - GDP: $43,922; 
-  - Literacy: 96.46%
-  …
-  24) Mali
-  - GDP: $2,123; 
-  - Literacy: 30.76%
-  25) Mozambique 
-  - GDP: $1,237; 
-  - Literacy: 59.78%
-  26) Central African Republic 
-  - GDP: $848; 
-  - Literacy: 37.49%
+  <p>
+    <blockquote>
+        1) Singapore<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- GDP: $94,910<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Literacy: 97.13%<br>
+      2) Saudi Arabia <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- GDP: $44,770; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Literacy: 97.59%<br>
+      3) Kuwait <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- GDP: $43,922; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Literacy: 96.46%<br>
+      …<br>
+      24) Mali<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- GDP: $2,123; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Literacy: 30.76%<br>
+      25) Mozambique <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- GDP: $1,237; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Literacy: 59.78%<br>
+      26) Central African Republic <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- GDP: $848; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Literacy: 37.49%<br>
+    </blockquote>
+  </p>
   
 *Note: many of the wealthiest countries (e.g. France, U.K., and the United States) were absent from much of the data. Also, there were numerous gaps present in the data (e.g., some years with many entries in one data set had very few or none in another). Therefore, the rankings are not completely representative and strong conclusions should not be drawn from them.
 
@@ -284,33 +288,40 @@ The analysis sheds light on the economic inequality trends across countries. Som
 - All analyzed countries (except Egypt) had a higher Gini coefficient than Atkinson index in 2019.
   - This could imply that the public perceive inequality to be higher than it should be (However, this must be taken lightly given the robustness of data that is needed to argue that claim)
 - The rankings of the amount of total wealth owned by the 1% were:
-  1) Dominican Republic 
-    35.9% total wealth
-    Total GDP: 66
-  2) Mexico 
-    29.5% total wealth
-    Total GDP: 12
-  3) Angola 
-    26.0% total wealth 
-    Total GDP: 64
-  …
-  44) Albania 
-    9.3% total wealth 
-    Total GDP: 116
-  45) Slovenia 
-    8.0% total wealth
-    95th in total GDP
-  46) Slovakia 
-    7.9% total wealth 
-    70th in total GDP
+  <p>
+    <blockquote>
+       1) Dominican Republic <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- 35.9% total wealth<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP: 66<br>
+      2) Mexico <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- 29.5% total wealth<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP: 12<br>
+      3) Angola <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- 26.0% total wealth <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP: 64<br>
+      …<br>
+      44) Albania <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- 9.3% total wealth <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP: 116<br>
+      45) Slovenia 
+        &nbsp;&nbsp;&nbsp;&nbsp;- 8.0% total wealth<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- 95th in total GDP<br>
+      46) Slovakia <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- 7.9% total wealth <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- 70th in total GDP<br>
+    </blockquote>
+  </p>
 - The associated GDP rankings of the largest economies in 2019 include:
-  1) China 
-    per Capita GDP: 74 
-    per employee GDP: 102
-  2) United States 
-    per Capita GDP: 9
-    per employee GDP: 6
-  3) India 
-    per Capita GDP: 119
-    per employee GDP: 119
-
+  <p>
+    <blockquote>
+      1) China <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- per Capita GDP: 74 <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- per employee GDP: 102<br>
+      2) United States <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- per Capita GDP: 9<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- per employee GDP: 6<br>
+      3) India <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- per Capita GDP: 119<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- per employee GDP: 119<br>
+    </blockquote>
+  </p>
