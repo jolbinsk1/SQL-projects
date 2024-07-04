@@ -180,25 +180,29 @@ The analysis reveals insights into global education and literacy trends, the hig
   </blockquote>
   </p>
 - The  average percent of youth literacy 2011 (the year with the most available data) are:
-  1) Bahrain 
-  - Female: 100% 
-  - Male: 100% 
-  2) Estonia 
-  - Female: 99.96% 
-  - Male: 99.94%
-  3) Azerbaijan 
-  - Female: 99.93% 
-  - Male: 99.96%
-…
-  55) Senegal 
-  - Female: 58.54% 
-  - Male: 73.73%
-  56) Afghanistan 
-  - Female: 32.11%
-  - Male: 61.88%
-  57) Mali 
-  - Female: 29.70% 
-  - Male: 56.52%
+  <p>
+    <blockquote>
+      1) Bahrain<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Female: 100% <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Male: 100% <br>
+      2) Estonia <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Female: 99.96% <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Male: 99.94%<br>
+      3) Azerbaijan <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Female: 99.93% <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Male: 99.96%<br>
+    …<br>
+      55) Senegal <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Female: 58.54% <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Male: 73.73%<br>
+      56) Afghanistan <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Female: 32.11%v
+      &nbsp;&nbsp;&nbsp;&nbsp;- Male: 61.88%<br>
+      57) Mali <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Female: 29.70% <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Male: 56.52%<br>
+    </blockquote>
+  </p>
 - Finally, the rankings of the counties present in the data in terms of per capita GDP in 2020 (the year with the most available data), including their percent literacy:
   1) Singapore 
   - GDP: $94,910
