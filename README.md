@@ -79,9 +79,11 @@ Highlights from the SQL calculations:
   </p>
 - As of 2022, the top 3 countries with respect to EVs per 100,000 people are:
   <p>
-      &nbsp;1) Germany (224) <br>
-      &nbsp;2) France (145)<br>
-      &nbsp;3) the U.K. (140)<br>
+    <blockquote>
+      1) Germany (224) <br>
+      2) France (145)<br>
+      3) the U.K. (140)<br>
+    </blockquote>
   </p>
 
 ## Project 2: Education and Literacy Worldwide Analysis
@@ -155,29 +157,27 @@ Use MySQL Workbench or any other SQL client to run queries, create views, and ex
 The analysis reveals insights into global education and literacy trends, the highlights of which include:
 - The reported tertiary education rates for 2020 (the year with the most available data) are: 
   <p> 
-    &nbsp;1) Iceland: 85.60%<br>
-    &nbsp;2) South Korea: 78.60%<br>
-    &nbsp;3) Russia: 75.80%<br>
-    &nbsp;…<br>
-    &nbsp;122) Niger: <0.01% <br>
-    &nbsp;123) Mali: <0.01% <br>
-    &nbsp;124) Liberia: <0.01%<br>
+    <blockquote>
+      1) Iceland: 85.60%<br>
+      2) South Korea: 78.60%<br>
+      3) Russia: 75.80%<br>
+      …<br>
+      122) Niger: <0.01% <br>
+      123) Mali: <0.01% <br>
+      124) Liberia: <0.01%<br>
+    </blockquote>
   </p>
 - The average years of adjusted education for 2015 (the year with the most available data) are:
   <p>
-      1) Singapore <br>
-  - 12.54 years
-  2) Lithuania <br>
-  - 12.44 years
-  3) Estonia <br>
-  - 12.33 years
-  …
-  112) Mozambique <br>
-  - 3.31 years
-  113) Mali <br>
-  - 2.78 years
-  114) Niger <br>
-  - 2.44 years
+    <blockquote>
+      1) Singapore: 12.54 years <br>
+      2) Lithuania: 12.44 years<br>
+      3) Estonia: 12.33 years<br>
+      …<br>
+      112) Mozambique: 3.31 years<br>
+      113) Mali: 2.78 years<br>
+      114) Niger: 2.44 years<br>
+  </blockquote>
   </p>
 - The  average percent of youth literacy 2011 (the year with the most available data) are:
   1) Bahrain 
