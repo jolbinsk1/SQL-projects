@@ -70,9 +70,9 @@ Highlights from the SQL calculations:
 - As of 2022, China is the current world leader in EV stocks (~14 million cars) and sales (~5.9 million cars), far outpacing the United States as runner up (~3 million and ~600,000, respectively) .
 - China has also seen the greatest growth in EVs sold from 2018-2022, outpacing second place, which is held by Germany (change: ~5 million vs. ~800,000 respectively)
 - The top 3 countries with the highest percent of EVs driven in 2022 are: 
-  1) Norway (88%)
-  2) Iceland (70%)
-  3) Sweden (54%).
+  1. Norway (88%)
+  2. Iceland (70%)
+  3. Sweden (54%).
 - As of 2022, the top 3 countries with respect to EVs per 100,000 people are:
   1) Germany (224)
   2) France (145)
