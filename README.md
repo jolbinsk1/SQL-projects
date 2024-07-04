@@ -185,18 +185,18 @@ The analysis reveals insights into global education and literacy trends, the hig
       1) Bahrain<br>
       &nbsp;&nbsp;&nbsp;&nbsp;- Female: 100% <br>
       &nbsp;&nbsp;&nbsp;&nbsp;- Male: 100% <br>
-      2) Estonia <br>
+      2) Estonia<br>
       &nbsp;&nbsp;&nbsp;&nbsp;- Female: 99.96% <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;- Male: 99.94%<br>
-      3) Azerbaijan <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Male: 99.94% <br>
+      3) Azerbaijan<br>
       &nbsp;&nbsp;&nbsp;&nbsp;- Female: 99.93% <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;- Male: 99.96%<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Male: 99.96% <br>
     …<br>
       55) Senegal <br>
       &nbsp;&nbsp;&nbsp;&nbsp;- Female: 58.54% <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;- Male: 73.73%<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Male: 73.73% <br>
       56) Afghanistan <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;- Female: 32.11%v
+      &nbsp;&nbsp;&nbsp;&nbsp;- Female: 32.11%<br>
       &nbsp;&nbsp;&nbsp;&nbsp;- Male: 61.88%<br>
       57) Mali <br>
       &nbsp;&nbsp;&nbsp;&nbsp;- Female: 29.70% <br>
@@ -206,24 +206,24 @@ The analysis reveals insights into global education and literacy trends, the hig
 - Finally, the rankings of the counties present in the data in terms of per capita GDP in 2020 (the year with the most available data), including their percent literacy:
   <p>
     <blockquote>
-        1) Singapore<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;- GDP: $94,910<br>
+      1) Singapore<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Per capita GDP: $94,910<br>
       &nbsp;&nbsp;&nbsp;&nbsp;- Literacy: 97.13%<br>
       2) Saudi Arabia <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;- GDP: $44,770; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Per capita GDP: $44,770 <br>
       &nbsp;&nbsp;&nbsp;&nbsp;- Literacy: 97.59%<br>
       3) Kuwait <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;- GDP: $43,922; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Per capita GDP: $43,922 <br>
       &nbsp;&nbsp;&nbsp;&nbsp;- Literacy: 96.46%<br>
       …<br>
       24) Mali<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;- GDP: $2,123; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Per capita GDP: $2,123 <br>
       &nbsp;&nbsp;&nbsp;&nbsp;- Literacy: 30.76%<br>
       25) Mozambique <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;- GDP: $1,237; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Per capita GDP: $1,237 <br>
       &nbsp;&nbsp;&nbsp;&nbsp;- Literacy: 59.78%<br>
       26) Central African Republic <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;- GDP: $848; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Per capita GDP: $848 <br>
       &nbsp;&nbsp;&nbsp;&nbsp;- Literacy: 37.49%<br>
     </blockquote>
   </p>
@@ -291,23 +291,23 @@ The analysis sheds light on the economic inequality trends across countries. Som
   <p>
     <blockquote>
        1) Dominican Republic <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- 35.9% total wealth<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total wealth: 35.9%<br>
         &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP rank: 66<br>
       2) Mexico <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- 29.5% total wealth<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total wealth: 29.5% <br>
         &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP rank: 12<br>
       3) Angola <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- 26.0% total wealth <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total wealth: 26.0% <br>
         &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP rank: 64<br>
       …<br>
       44) Albania <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- 9.3% total wealth <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total wealth: 9.3% <br>
         &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP rank: 116<br>
       45) Slovenia 
-        &nbsp;&nbsp;&nbsp;&nbsp;- 8.0% total wealth<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total wealth: 8.0% <br>
         &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP rank: 96<br>
       46) Slovakia <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- 7.9% total wealth <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total wealth: 7.9% <br>
         &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP rank: 76<br>
     </blockquote>
   </p>
@@ -315,13 +315,13 @@ The analysis sheds light on the economic inequality trends across countries. Som
   <p>
     <blockquote>
       1) China <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- per Capita GDP: 74 <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- per employee GDP: 102<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- per Capita GDP rank: 74 <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- per employee GDP rank: 102<br>
       2) United States <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- per Capita GDP: 9<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- per employee GDP: 6<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- per Capita GDP rank: 9<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- per employee GDP rank: 6<br>
       3) India <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- per Capita GDP: 119<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- per employee GDP: 119<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- per Capita GDP rank: 119<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- per employee GDP rank: 119<br>
     </blockquote>
   </p>
