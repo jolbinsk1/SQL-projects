@@ -303,7 +303,7 @@ The analysis sheds light on the economic inequality trends across countries. Som
       44) Albania <br>
         &nbsp;&nbsp;&nbsp;&nbsp;- Total wealth: 9.3% <br>
         &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP rank: 116<br>
-      45) Slovenia 
+      45) Slovenia <br>
         &nbsp;&nbsp;&nbsp;&nbsp;- Total wealth: 8.0% <br>
         &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP rank: 96<br>
       46) Slovakia <br>
