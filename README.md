@@ -71,16 +71,16 @@ Highlights from the SQL calculations:
 - China has also seen the greatest growth in EVs sold from 2018-2022, outpacing second place, which is held by Germany (change: ~5 million vs. ~800,000 respectively)
 - The top 3 countries with the highest percent of EVs driven in 2022 are:
   <p>
-    1) Norway (88%)<br>
-    2) Iceland (70%)<br>
-    3) Sweden (54%)<br>
+      1) Norway (88%)<br>
+      2) Iceland (70%)<br>
+      3) Sweden (54%)<br>
   </p>
 - As of 2022, the top 3 countries with respect to EVs per 100,000 people are:
-   <ol>
-    <li>Germany (224)</li>
-    <li>France (145)</li>
-    <li>the U.K. (140)</li>
-  </ol>
+  <p>
+      1) Germany (224) <br>
+      2) France (145)<br>
+      3) the U.K. (140)<br>
+  </p>
 
 ## Project 2: Education and Literacy Worldwide Analysis
 
