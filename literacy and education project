@@ -457,9 +457,9 @@ SELECT
     year,
     DENSE_RANK() OVER(ORDER BY (male_youth_literacy + female_youth_literacy)/2 DESC) AS avg_lit_rank,
 	ROUND(((male_youth_literacy + female_youth_literacy)/2),2) AS avg_youth_literacy,
-    DENSE_RANK() OVER(ORDER BY male_youth_literacy) AS m_lit_rank,
+    DENSE_RANK() OVER(ORDER BY male_youth_literacy DESC) AS m_lit_rank,
 	male_youth_literacy,
-    DENSE_RANK() OVER(ORDER BY female_youth_literacy) AS f_lit_rank,
+    DENSE_RANK() OVER(ORDER BY female_youth_literacy DESC) AS f_lit_rank,
     female_youth_literacy
 FROM
 	literacy_rates_male_female
