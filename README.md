@@ -292,23 +292,23 @@ The analysis sheds light on the economic inequality trends across countries. Som
     <blockquote>
        1) Dominican Republic <br>
         &nbsp;&nbsp;&nbsp;&nbsp;- 35.9% total wealth<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP: 66<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP rank: 66<br>
       2) Mexico <br>
         &nbsp;&nbsp;&nbsp;&nbsp;- 29.5% total wealth<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP: 12<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP rank: 12<br>
       3) Angola <br>
         &nbsp;&nbsp;&nbsp;&nbsp;- 26.0% total wealth <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP: 64<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP rank: 64<br>
       …<br>
       44) Albania <br>
         &nbsp;&nbsp;&nbsp;&nbsp;- 9.3% total wealth <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP: 116<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP rank: 116<br>
       45) Slovenia 
         &nbsp;&nbsp;&nbsp;&nbsp;- 8.0% total wealth<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- 95th in total GDP<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP rank: 96<br>
       46) Slovakia <br>
         &nbsp;&nbsp;&nbsp;&nbsp;- 7.9% total wealth <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;- 70th in total GDP<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Total GDP rank: 76<br>
     </blockquote>
   </p>
 - The associated GDP rankings of the largest economies in 2019 include:
