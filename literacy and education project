@@ -511,7 +511,7 @@ WHERE year = 2020 AND code != ' '
 -- Finally, average years of schooling for 2015
 	-- number of entries for 2015: 119
     
-USE employees;
+USE education;
     
 SELECT * FROM f_data_years;    
 
