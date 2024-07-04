@@ -152,32 +152,34 @@ Use MySQL Workbench or any other SQL client to run queries, create views, and ex
 
 The analysis reveals insights into global education and literacy trends, the highlights of which include:
 - The reported tertiary education rates for 2020 (the year with the most available data) are: 
-  1) Iceland 
-  - 85.60%
-  2) South Korea 
-  - 78.60%
-  3) Russia 
-  - 75.80%
-  …
-  122) Niger 
-  - <0.01%
-  123) Mali 
-  - <0.01%
-  124) Liberia 
-  - <0.01%
+  <p> 
+    1) Iceland <br>
+        - 85.60%
+    2) South Korea <br>
+      - 78.60%
+    3) Russia <br>
+      - 75.80%
+    …
+    122) Niger <br>
+      - <0.01%
+    123) Mali <br>
+      - <0.01%
+    124) Liberia <br>
+      - <0.01%
+  </p>
 - The average years of adjusted education for 2015 (the year with the most available data) are:
-  1) Singapore 
+  1) Singapore <br>
   - 12.54 years
-  2) Lithuania 
+  2) Lithuania <br>
   - 12.44 years
-  3) Estonia 
+  3) Estonia <br>
   - 12.33 years
   …
-  112) Mozambique 
+  112) Mozambique <br>
   - 3.31 years
-  113) Mali 
+  113) Mali <br>
   - 2.78 years
-  114) Niger 
+  114) Niger <br>
   - 2.44 years
 - The  average percent of youth literacy 2011 (the year with the most available data) are:
   1) Bahrain 
