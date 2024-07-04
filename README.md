@@ -56,144 +56,168 @@ cd electric-vehicle-project
 ```
 
 #### Import the Database:
+
 Import the provided SQL script to set up the database schema and populate the tables:
 sql
 Copy code
 SOURCE path_to_sql_script.sql;
+
 #### Use MySQL Workbench or any SQL client to run queries, create views, and execute     stored procedures as needed.
-Results
+
+### Results
+
 Highlights from the SQL calculations:
-As of 2022, China is the current world leader in EV stocks (~14 million cars) and sales (~5.9 million cars), far outpacing the United States as runner up (~3 million and ~600,000, respectively) .
-China has also seen the greatest growth in EVs sold from 2018-2022, outpacing second place, which is held by Germany (change: ~5 million vs. ~800,000 respectively)
-The top 3 countries with the highest percent of EVs driven in 2022 are: 
-1) Norway (88%)
-2) Iceland (70%)
-3) Sweden (54%).
-As of 2022, the top 3 countries with respect to EVs per 100,000 people are:
-1) Germany (224)
-2) France (145)
-3) the U.K. (140)
-Project 2: Education and Literacy Worldwide Analysis
+- As of 2022, China is the current world leader in EV stocks (~14 million cars) and sales (~5.9 million cars), far outpacing the United States as runner up (~3 million and ~600,000, respectively) .
+- China has also seen the greatest growth in EVs sold from 2018-2022, outpacing second place, which is held by Germany (change: ~5 million vs. ~800,000 respectively)
+- The top 3 countries with the highest percent of EVs driven in 2022 are: 
+  1) Norway (88%)
+  2) Iceland (70%)
+  3) Sweden (54%).
+- As of 2022, the top 3 countries with respect to EVs per 100,000 people are:
+  1) Germany (224)
+  2) France (145)
+  3) the U.K. (140)
+
+## Project 2: Education and Literacy Worldwide Analysis
+
 My next project aims to examine the differences in education and literacy worldwide. The following are calculated from the data:
-Literacy rates by country and year.
-Gender differences in youth literacy rates by year.
-Tertiary education (e.g., undergraduate degrees) enrollment percentages per year.
-GDP vs. the above statistics.
-The most recent data available for the above statistics.
-Miscellaneous rankings for the above statistics.
-Data Sources
+- Literacy rates by country and year.
+- Gender differences in youth literacy rates by year.
+- Tertiary education (e.g., undergraduate degrees) enrollment percentages per year.
+- GDP vs. the above statistics.
+- The most recent data available for the above statistics.
+- Miscellaneous rankings for the above statistics.
+
+### Data Sources
+
 The data used in this project came from the sources listed below:
-Patrinos and Angrist (2018) and UNESCO via World Bank
-World Bank (2023) via OurWorldInData.org/literacy
-Filmer et al. (2018) via World Bank
-Barro and Lee (2015) and Lee and Lee (2016)
-Database Schema
+- Patrinos and Angrist (2018) and UNESCO via World Bank
+- World Bank (2023) via OurWorldInData.org/literacy
+- Filmer et al. (2018) via World Bank
+- Barro and Lee (2015) and Lee and Lee (2016)
+
+### Database Schema
+
 The database consists of the following tables:
-World_literacy_rates: Contains the percent literacy of a country per year that the data is available.
-Tertiary_education: Includes percentage of the population of a given country and given year that has a tertiary education.
-per_cap_GDP_test: Contains the harmonized test scores from the TIMSS (Trends in International Mathematics and Science Study) and PIRLS (Progress in International Reading Literacy Study) test for Countries in a given year.
-Literacy_vs_avg_schooling: Provides the estimated percent literacy and the average years of schooling per country per year.
-Literacy_rates_male_female: Contains the estimated male/female youth (aged 16-24) literacy rates and the estimated population per country per year.
-Adjusted_school_years: Includes estimates of the adjusted years of schooling per country per year.
-Views and Procedures
-Views
-v_world_literacy_and_GDP: Combines literacy rates and GDP per capita.
-v_youth_literacy_and_GDP: Compares youth literacy rates (male and female) and GDP per capita.
-v_tertiary_ed_and_GDP: Compares tertiary education percentages, literacy rates, and GDP per capita.
-v_total_education_and_literacy: Displays average years of schooling, adjusted school years, tertiary education percentages, and literacy rates.
-Procedures
-p_youth_literacy_info: Retrieves the most recent youth literacy data for a specified country.
-p_world_literacy_and_GDP: Displays the most recent data from v_world_literacy_and_GDP for a specified country.
-p_tertiary_ed_and_GDP: Retrieves the most recent data from v_tertiary_ed_and_GDP for a specified country.
-p_total_education_and_literacy: Computes the most recent data from v_total_education_and_literacy for a specified country.
-How to Use
-Clone the Repository
-bash
+- `world_literacy_rates`: Contains the percent literacy of a country per year that the data is available.
+- `tertiary_education`: Includes percentage of the population of a given country and given year that has a tertiary education.
+- `per_cap_GDP_test`: Contains the harmonized test scores from the TIMSS (Trends in International Mathematics and Science Study) and PIRLS (Progress in International Reading Literacy Study) test for Countries in a given year.
+- `literacy_vs_avg_schooling`: Provides the estimated percent literacy and the average years of schooling per country per year.
+- `literacy_rates_male_female`: Contains the estimated male/female youth (aged 16-24) literacy rates and the estimated population per country per year.
+- `adjusted_school_years`: Includes estimates of the adjusted years of schooling per country per year.
+
+### Views and Procedures
+
+#### Views
+
+- `v_world_literacy_and_GDP`: Combines literacy rates and GDP per capita.
+- `v_youth_literacy_and_GDP`: Compares youth literacy rates (male and female) and GDP per capita.
+- `v_tertiary_ed_and_GDP`: Compares tertiary education percentages, literacy rates, and GDP per capita.
+- `v_total_education_and_literacy`: Displays average years of schooling, adjusted school years, tertiary education percentages, and literacy rates.
+
+#### Procedures
+
+- `p_youth_literacy_info`: Retrieves the most recent youth literacy data for a specified country.
+- `p_world_literacy_and_GDP`: Displays the most recent data from v_world_literacy_and_GDP for a specified country.
+- `p_tertiary_ed_and_GDP`: Retrieves the most recent data from v_tertiary_ed_and_GDP for a specified country.
+- `p_total_education_and_literacy`: Computes the most recent data from v_total_education_and_literacy for a specified country.
+
+### How to Use
+
+#### Clone the Repository
+```bash
 Copy code
 git clone https://github.com/jolbinsk1/SQL-projects.git
 cd literacy-and-education-project
+```
 
+#### Import the Database
 
-Import the Database
 Import the provided SQL script to set up the database schema and populate the tables.
+```bash
 sql
 Copy code
 SOURCE path_to_sql_script.sql;
+```
 
+#### Run Queries
 
-Run Queries
 Use MySQL Workbench or any other SQL client to run queries, create views, and execute stored procedures as needed.
-Results
+
+### Results
+
 The analysis reveals insights into global education and literacy trends, the highlights of which include:
-The reported tertiary education rates for 2020 (the year with the most available data) are: 
-1) Iceland 
-85.60%
-2) South Korea 
-78.60%
-3) Russia 
-75.80%
+- The reported tertiary education rates for 2020 (the year with the most available data) are: 
+  1) Iceland 
+  - 85.60%
+  2) South Korea 
+  - 78.60%
+  3) Russia 
+  - 75.80%
+  …
+  122) Niger 
+  - <0.01%
+  123) Mali 
+  - <0.01%
+  124) Liberia 
+  - <0.01%
+- The average years of adjusted education for 2015 (the year with the most available data) are:
+  1) Singapore 
+  - 12.54 years
+  2) Lithuania 
+  - 12.44 years
+  3) Estonia 
+  - 12.33 years
+  …
+  112) Mozambique 
+  - 3.31 years
+  113) Mali 
+  - 2.78 years
+  114) Niger 
+  - 2.44 years
+- The  average percent of youth literacy 2011 (the year with the most available data) are:
+  1) Bahrain 
+  - Female: 100% 
+  - Male: 100% 
+  2) Estonia 
+  - Female: 99.96% 
+  - Male: 99.94%
+  3) Azerbaijan 
+  - Female: 99.93% 
+  - Male: 99.96%
 …
-122) Niger 
-<0.01%
-123) Mali 
-<0.01%
-124) Liberia 
-<0.01%
-The average years of adjusted education for 2015 (the year with the most available data) are:
-1) Singapore 
-12.54 years
-2) Lithuania 
-12.44 years
-3) Estonia 
-12.33 years
-…
-112) Mozambique 
-3.31 years
-113) Mali 
-2.78 years
-114) Niger 
-2.44 years
-The  average percent of youth literacy 2011 (the year with the most available data) are:
-1) Bahrain 
-Female: 100% 
-Male: 100% 
-2) Estonia 
-Female: 99.96% 
-Male: 99.94%
-3) Azerbaijan 
-Female: 99.93% 
-Male: 99.96%
-…
-55) Senegal 
-Female: 58.54% 
-Male: 73.73%
-56) Afghanistan 
-Female: 32.11%
-Male: 61.88%
-57) Mali 
-Female: 29.70% 
-Male: 56.52%
-Finally, the rankings of the counties present in the data in terms of per capita GDP in 2020 (the year with the most available data), including their percent literacy:
-1) Singapore 
-GDP: $94,910
-Literacy: 97.13%
-2) Saudi Arabia 
-GDP: $44,770; 
-Literacy: 97.59%
-3) Kuwait 
-GDP: $43,922; 
-Literacy: 96.46%
-…
-24) Mali
-GDP: $2,123; 
-Literacy: 30.76%
-25) Mozambique 
-GDP: $1,237; 
-Literacy: 59.78%
-26) Central African Republic 
-GDP: $848; 
-Literacy: 37.49%
+  55) Senegal 
+  - Female: 58.54% 
+  - Male: 73.73%
+  56) Afghanistan 
+  - Female: 32.11%
+  - Male: 61.88%
+  57) Mali 
+  - Female: 29.70% 
+  - Male: 56.52%
+- Finally, the rankings of the counties present in the data in terms of per capita GDP in 2020 (the year with the most available data), including their percent literacy:
+  1) Singapore 
+  - GDP: $94,910
+  - Literacy: 97.13%
+  2) Saudi Arabia 
+  - GDP: $44,770; 
+  - Literacy: 97.59%
+  3) Kuwait 
+  - GDP: $43,922; 
+  - Literacy: 96.46%
+  …
+  24) Mali
+  - GDP: $2,123; 
+  - Literacy: 30.76%
+  25) Mozambique 
+  - GDP: $1,237; 
+  - Literacy: 59.78%
+  26) Central African Republic 
+  - GDP: $848; 
+  - Literacy: 37.49%
+  
 *Note: many of the wealthiest countries (e.g. France, U.K., and the United States) were absent from much of the data. Also, there were numerous gaps present in the data (e.g., some years with many entries in one data set had very few or none in another). Therefore, the rankings are not completely representative and strong conclusions should not be drawn from them.
+
 Project 3: Comparative Analysis of Economic Inequality Metrics with GDP
 The objective of this project is to examine worldwide economic inequality before the COVID-19 pandemic. This period was selected because of the widespread economic consequences of the pandemic.I analyzed various GDP metrics, as well as two measures of economic inequality: the Gini coefficient and the Atkinson index. Both calculate wealth distribution on a scale of 0 to 1 (with 0 being complete equality and 1 complete inequality), but the Atkinson index takes into account the level of inequality a given society deems "acceptable."
 Data Sources
