@@ -62,7 +62,7 @@ using SQL query:
 CREATE DATABASE electric_vehicle_db;
 
 # 3) Navigate to the dump files directory
-SQL-projects/electric-car-project/electric-car-project-dump
+cd electric-car-project-dump
 
 # 4) Import the database
 mysql -u root -p electric_vehicle_db < electric-cars_battery_plugin_shares.sql
