@@ -56,7 +56,7 @@ git clone https://github.com/jolbinsk1/SQL-projects.git
 cd SQL-project/electric-car-project
 
 # 2) Create Database
-mysql -u your_username -p
+mysql -u your_username -p your password
 
 using SQL query:
 CREATE DATABASE electric_vehicle_db;
@@ -156,26 +156,26 @@ The database consists of the following tables:
 ```bash
 # 1) Clone the repository
 git clone https://github.com/jolbinsk1/SQL-projects.git
-cd SQL-projects/electric-car-project
+cd SQL-projects/inequality-project
 
-# 2) Create Database
-mysql -u your_username -p
+# 2) Create Database (if not already done from Project 1)
+mysql -u your_username -p your_password
 
 using SQL query:
 CREATE DATABASE electric_vehicle_db;
 
 # 3) Navigate to the dump files directory
-cd electric-car-project-dump
+cd inequality_project_dump
 
 # 4) Import the database
-mysql -u root -p electric_vehicle_db < electric_cars_battery_plugin_shares.sql
-mysql -u root -p electric_vehicle_db < electric_cars_car_sales.sql
-mysql -u root -p electric_vehicle_db < electric_cars_electric_car_stocks.sql
-mysql -u root -p electric_vehicle_db < electric_cars_electric_sales_share.sql
-mysql -u root -p electric_vehicle_db < electric_cars_electric_stock_share.sql
-mysql -u root -p electric_vehicle_db < electric_cars_percent_battery_electric.sql
-mysql -u root -p electric_vehicle_db < electric_cars_world_population.sql
-mysql -u root -p electric_vehicle_db < electric_cars_routines.sql
+mysql -u root -p electric_vehicle_db < inequality_GDP_per_capita.sql
+mysql -u root -p electric_vehicle_db < inequality_GDP_per_emp_person.sql
+mysql -u root -p electric_vehicle_db < inequality_GDP_worldbank.sql
+mysql -u root -p electric_vehicle_db < inequality_economic_inequality.sql
+mysql -u root -p electric_vehicle_db < inequality_income_inequality.sql
+mysql -u root -p electric_vehicle_db < inequality_Top_1.sql
+mysql -u root -p electric_vehicle_db < inequality_Top_10.sql
+mysql -u root -p electric_vehicle_db < inequality_routines.sql
 
 ```
 
@@ -300,16 +300,30 @@ The project used the following tables to store and analyze data:
   
 ### How to Use
 
-#### Clone the Repository:
 ```bash
-Copy code
+# 1) Clone the repository
 git clone https://github.com/jolbinsk1/SQL-projects.git
-cd world-inequality-project
+cd SQL-projects/literacy-and-education-project
+
+# 2) Create Database (if not already done from Project 1 or 2)
+mysql -u your_username -p your_password
+
+using SQL query:
+CREATE DATABASE electric_vehicle_db;
+
+# 3) Navigate to the dump files directory
+cd literacy_and_education_project_dump
+
+# 4) Import the database
+mysql -u root -p electric_vehicle_db < education_world_literacy_rates.sql
+mysql -u root -p electric_vehicle_db < education_per_cap_GDP_test.sql
+mysql -u root -p electric_vehicle_db < education_literacy_vs_avg_schooling.sql
+mysql -u root -p electric_vehicle_db < education_tertiary_education.sql
+mysql -u root -p electric_vehicle_db < education_literacy_rates_male_female.sql
+mysql -u root -p electric_vehicle_db < education_adjusted_school_years.sql
+mysql -u root -p electric_vehicle_db < education_routines.sql
+
 ```
-
-#### Set Up the Database:
-
-Import the provided SQL script into MySQL Workbench to create the database schema and populate tables.
 
 #### Run Queries:
 
