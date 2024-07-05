@@ -7,7 +7,7 @@ This repository contains SQL queries that aim to analyze several metrics of prog
   3) trends in income inequality.<br>
   </p>
 While on the surface these seem unrelated, I believe they are each barometers for how well we are living up to the goal of having a greener, more equal world.<br>
-<br>/</br>
+<br></br>
 <p>
 (Note: all of the data has been queried and analyzed using MySQL Workbench.)
 </p>
