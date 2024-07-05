@@ -3,7 +3,7 @@
 This repository contains SQL queries that aim to analyze several metrics of progress: 
   1) the production and sale of electric cars,
   2) trends in literacy and education worldwide, and
-  3) trends in income inequality.
+  3) trends in income inequality.<br>
 While on the surface these seem unrelated, I believe they are each barometers for how well we are living up to our goal of having a greener, and more equal world. 
 
 (Note: all of the data has been queried and analyzed using MySQL Workbench.)
