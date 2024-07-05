@@ -48,8 +48,6 @@ The database comprises the following main tables:
 
 ### How to Use
 
-#### Clone the repository:
-
 ```bash
 # 1) Clone the repository
 git clone https://github.com/jolbinsk1/SQL-projects.git
