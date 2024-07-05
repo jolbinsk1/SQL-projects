@@ -6,7 +6,8 @@ This repository contains SQL queries that aim to analyze several metrics of prog
   2) trends in literacy and education worldwide, and<br>
   3) trends in income inequality.<br>
   </p>
-While on the surface these seem unrelated, I believe they are each barometers for how well we are living up to our goal of having a greener, and more equal world. 
+While on the surface these seem unrelated, I believe they are each barometers for how well we are living up to our goal of having a greener, and more equal world.
+
 <p>
 (Note: all of the data has been queried and analyzed using MySQL Workbench.)
 </p>
