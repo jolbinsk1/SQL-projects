@@ -58,7 +58,7 @@ cd SQL-project/electric-car-project
 # 2) Create Database
 mysql -u your_username -p your password
 
-using SQL query:
+  # using SQL query:
 CREATE DATABASE electric_vehicle_db;
 
 # 3) Navigate to the dump files directory
@@ -161,7 +161,7 @@ cd SQL-projects/inequality-project
 # 2) Create Database (if not already done from Project 1)
 mysql -u your_username -p your_password
 
-using SQL query:
+  # using SQL query:
 CREATE DATABASE electric_vehicle_db;
 
 # 3) Navigate to the dump files directory
@@ -308,7 +308,7 @@ cd SQL-projects/literacy-and-education-project
 # 2) Create Database (if not already done from Project 1 or 2)
 mysql -u your_username -p your_password
 
-using SQL query:
+  # using SQL query:
 CREATE DATABASE electric_vehicle_db;
 
 # 3) Navigate to the dump files directory
