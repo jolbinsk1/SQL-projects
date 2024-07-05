@@ -51,8 +51,29 @@ The database comprises the following main tables:
 #### Clone the repository:
 
 ```bash
+# 1) Clone the repository
 git clone https://github.com/jolbinsk1/SQL-projects.git
-cd electric-vehicle-project
+cd SQL-project/electric-car-project
+
+# 2) Create Database
+mysql -u your_username -p
+
+using SQL query:
+CREATE DATABASE electric_vehicle_db;
+
+# 3) Navigate to the dump files directory
+SQL-projects/electric-car-project/electric-car-project-dump
+
+# 4) Import the database
+mysql -u root -p electric_vehicle_db < electric-cars_battery_plugin_shares.sql
+mysql -u root -p electric_vehicle_db < electric-cars_car_sales.sql
+mysql -u root -p electric_vehicle_db < electric-cars_electric_car_stocks.sql
+mysql -u root -p electric_vehicle_db < electric-cars_electric_sales_share.sql
+mysql -u root -p electric_vehicle_db < electric-cars_electric_stock_share.sql
+mysql -u root -p electric_vehicle_db < electric-cars_percent_battery_electric.sql
+mysql -u root -p electric_vehicle_db < electric-cars_world_population.sql
+mysql -u root -p electric_vehicle_db < electric-cars_routines.sql
+
 ```
 
 #### Import the Database:
