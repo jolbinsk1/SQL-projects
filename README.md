@@ -1,23 +1,27 @@
 # SQL Project Portfolio: Analyzing Global Trends in Measures of Progress
 
-This repository contains SQL queries that aim to analyze several metrics of progress: 1) the production and sale of electric cars, 2) trends in literacy and education worldwide, and 3) trends in income inequality. While on the surface these seem unrelated, I believe they are each barometers for how well we are living up to our goal of having a greener, and more equal world. 
+This repository contains SQL queries that aim to analyze several metrics of progress: 
+  1) the production and sale of electric cars,
+  2) trends in literacy and education worldwide, and
+  3) trends in income inequality.
+While on the surface these seem unrelated, I believe they are each barometers for how well we are living up to our goal of having a greener, and more equal world. 
 
-* All of the data has been queried and analyzed using MySQL Workbench.
+(Note: all of the data has been queried and analyzed using MySQL Workbench.)
 
 ## Project 1: Electric Car Data Analysis
 
 My first project involves the analysis of electric vehicle (EV) manufacture, sale, and use across multiple countries from 2010 to 2022. Specifically, this project aims to analyze the following:
 
 - Percentage share of battery-electric and hybrid vehicles.
-- Total electric car stocks (i.e., driveable cars) and annual sales data.
-- Electric car sales and use rates relative to the total car market.
-- Per capita analysis of electric car stocks.
+- Total EV stocks (i.e., driveable cars) and annual sales data.
+- EV sales and use rates relative to the total car market.
+- Per capita analysis of EV stocks.
 - Change in share of EVs over time.
 - Rankings of the above data for the year 2022
 
 ### Data Sources
 
-The data is sourced primarily from Hannah Ritchie's 2024 publication "Tracking global data on electric vehicles,” which has been made available on OurWorldInData.org.
+The data is sourced from Hannah Ritchie's 2024 publication "Tracking global data on electric vehicles,” which has been made available on OurWorldInData.org.
 
 ### Database Schema
 
@@ -36,15 +40,15 @@ The database comprises the following main tables:
 
 - `data_start_years`: Displays the start year for data collection across various categories.
 - `battery_electric_comparison`: Compares the share of battery-electric and hybrid vehicles per country/region.
-- `e_sales_stocks_shares`: Combines data on electric car sales, stocks, and their shares relative to total car sales.
-- `e_stock_per_capita`: Calculates electric car stocks per capita for each country/region.
+- `e_sales_stocks_shares`: Combines data on EV sales, stocks, and their shares relative to total car sales.
+- `e_stock_per_capita`: Calculates EV stocks per capita for each country/region.
 
 #### Stored Procedures
 
-- `e_share_increase`: Computes the percentage increase in the share of electric cars between two specified years.
-- `e_stock_increase`: Calculates the percentage increase in electric car stocks between two specified years.
-- `e_cars_sold_increase`: Computes the percentage increase in electric car sales between two specified years.
-- `non_ecars_sold_increase`: Calculates the percentage increase in non-electric car sales between two specified years.
+- `e_share_increase`: Computes the percentage increase in the share of EVs between two specified years.
+- `e_stock_increase`: Calculates the percentage increase in EV stocks between two specified years.
+- `e_cars_sold_increase`: Computes the percentage increase in EV sales between two specified years.
+- `non_ecars_sold_increase`: Calculates the percentage increase in non-EV sales between two specified years.
 
 ### How to Use
 
@@ -73,15 +77,6 @@ mysql -u root -p electric_vehicle_db < electric-cars_world_population.sql
 mysql -u root -p electric_vehicle_db < electric-cars_routines.sql
 
 ```
-
-#### Import the Database:
-
-Import the provided SQL script to set up the database schema and populate the tables:
-sql
-Copy code
-SOURCE path_to_sql_script.sql;
-
-#### Use MySQL Workbench or any SQL client to run queries, create views, and execute     stored procedures as needed.
 
 ### Results
 
@@ -128,7 +123,7 @@ The data used in this project came from the sources listed below:
 The database consists of the following tables:
 - `world_literacy_rates`: Contains the percent literacy of a country per year that the data is available.
 - `tertiary_education`: Includes percentage of the population of a given country and given year that has a tertiary education.
-- `per_cap_GDP_test`: Contains the harmonized test scores from the TIMSS (Trends in International Mathematics and Science Study) and PIRLS (Progress in International Reading Literacy Study) test for Countries in a given year.
+- `per_cap_GDP_test`: Contains the combined harmonized test scores from the TIMSS (Trends in International Mathematics and Science Study) and PIRLS (Progress in International Reading Literacy Study) test for Countries in a given year.
 - `literacy_vs_avg_schooling`: Provides the estimated percent literacy and the average years of schooling per country per year.
 - `literacy_rates_male_female`: Contains the estimated male/female youth (aged 16-24) literacy rates and the estimated population per country per year.
 - `adjusted_school_years`: Includes estimates of the adjusted years of schooling per country per year.
@@ -176,12 +171,6 @@ mysql -u root -p electric_vehicle_db < inequality_Top_10.sql
 mysql -u root -p electric_vehicle_db < inequality_routines.sql
 
 ```
-
-
-
-#### Run Queries
-
-Use MySQL Workbench or any other SQL client to run queries, create views, and execute stored procedures as needed.
 
 ### Results
 
@@ -259,11 +248,11 @@ The analysis reveals insights into global education and literacy trends, the hig
     </blockquote>
   </p>
   
-*Note: many of the wealthiest countries (e.g. France, U.K., and the United States) were absent from much of the data. Also, there were numerous gaps present in the data (e.g., some years with many entries in one data set had very few or none in another). Therefore, the rankings are not completely representative and strong conclusions should not be drawn from them.
+(Note: many of the wealthiest countries -- e.g. France, U.K., and the United States -- were absent from much of the data. Also, there were numerous gaps present in the data -- e.g., some years with many entries in one data set had very few or none in another. Therefore, the rankings are not completely representative and strong conclusions should not be drawn from them.)
 
 ## Project 3: Comparative Analysis of Economic Inequality Metrics with GDP
 
-The objective of this project is to examine worldwide economic inequality before the COVID-19 pandemic. This period was selected because of the widespread economic consequences of the pandemic.I analyzed various GDP metrics, as well as two measures of economic inequality: the Gini coefficient and the Atkinson index. Both calculate wealth distribution on a scale of 0 to 1 (with 0 being complete equality and 1 complete inequality), but the Atkinson index takes into account the level of inequality a given society deems "acceptable."
+The objective of this project is to examine worldwide economic inequality before the COVID-19 pandemic. This period was selected because of the widespread economic consequences of the pandemic.I analyzed various GDP metrics, as well as two measures of economic inequality: the **Gini coefficient** and the **Atkinson index**. Both calculate wealth distribution on a scale of 0 to 1 (with 0 being complete equality and 1 complete inequality), but the Atkinson index takes into account the level of inequality a given society deems "acceptable."
 
 ### Data Sources
 
@@ -322,10 +311,6 @@ mysql -u root -p electric_vehicle_db < education_adjusted_school_years.sql
 mysql -u root -p electric_vehicle_db < education_routines.sql
 
 ```
-
-#### Run Queries:
-
-Use MySQL Workbench or any SQL client to execute queries, create views, and call stored procedures as needed.
 
 ### Results
 
