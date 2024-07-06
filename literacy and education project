@@ -463,7 +463,7 @@ SELECT
     female_youth_literacy
 FROM
 	literacy_rates_male_female
-WHERE year = 2011 AND code != ' '
+WHERE year = 2011 AND code != ' ' AND country NOT LIKE ('%income%')
 ;
     
 -- tertiary education, and adjusted school years for 2020
@@ -475,8 +475,9 @@ USE education;
 
 SELECT * FROM f_data_years;
 
- SELECT 
-	DISTINCT(adj.country),       # this was done because the original query resulted in multiple repetitions for each country
+
+SELECT 
+	adj.country,       # this was done because the original query resulted in multiple repetitions for each country
     adj.year,
     DENSE_RANK() OVER(ORDER BY adj.years_of_school_adj DESC) AS adj_school_year_rank,
 	adj.years_of_school_adj,
@@ -485,7 +486,12 @@ SELECT * FROM f_data_years;
 FROM
 	adjusted_school_years adj
 		JOIN
-	tertiary_education te ON adj.country = te.country
+	(SELECT 
+		DISTINCT (country),
+        tertiary_ed_percent,
+		year
+	FROM	
+		tertiary_education) te ON adj.country = te.country AND adj.year = te.year
 WHERE adj.year = 2020 AND adj.code != ' '
 ;   
 
