@@ -60,7 +60,7 @@ SELECT * FROM per_cap_GDP_test;
 #---------------------------------------------------------
 
 USE education;
-DROP TABLE IF EXISTS literacy_vs_avg_ed;
+DROP TABLE IF EXISTS literacy_vs_avg_schooling;
 
 CREATE TABLE literacy_vs_avg_schooling (
 	country VARCHAR(255) NOT NULL,
@@ -71,7 +71,7 @@ CREATE TABLE literacy_vs_avg_schooling (
     FOREIGN KEY (country,year) REFERENCES world_literacy_rates (country,year)
 );
 
-SELECT * FROM literacy_vs_avg_ed;
+SELECT * FROM literacy_vs_avg_schooling;
 
 #---------------------------------------------------------
 
@@ -525,8 +525,10 @@ SELECT
 	country,
     year,
 	DENSE_RANK() OVER(ORDER BY avg_ed_years DESC) AS ed_years_rank,
-	avg_ed_years 
-FROM
+	avg_ed_years,
+    DENSE_RANK() OVER(ORDER BY est_literacy DESC) AS est_literacy_rank,
+    est_literacy
+FROM	
 	literacy_vs_avg_schooling
 WHERE year = 2015 AND code != ' '
 ;
